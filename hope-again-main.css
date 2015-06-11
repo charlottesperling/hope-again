@@ -714,9 +714,7 @@ li a.text-mid-orange {
 		}
 
 	/*Height*/
-		.h90 {
-			height: 130em;
-		}
+
 
 		.h60 {
 			height: 60em;
@@ -1186,10 +1184,6 @@ li a.text-mid-orange {
 
 			/*Height*/
 
-				.h90 {
-					height: auto;
-				}
-
 				.h60 {
 					height: auto;
 				}
@@ -1322,22 +1316,11 @@ li a.text-mid-orange {
 
 .link-home:hover {
 	
-	/*color: #f7af48;*/
-	color: #073354;
-	border: 2px solid #073354;
+	color: #f7af48;
+	border: 2px solid #f7af48;
 	
 
 }
-
-.light-link-home:hover {
-	
-	/*color: #f7af48;*/
-	color: #91bed4;
-	border: 2px solid #91bed4;
-	
-
-}
-
 
 .text-center {
 					text-align: center;
