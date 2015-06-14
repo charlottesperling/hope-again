@@ -366,7 +366,7 @@ li a.text-mid-orange {
 					/*Image Header Media Query*/
 				@media (max-width: 745px) {
 					.image-header {
-						padding: 10em 3em;
+						padding: 10em 0em;
 
 							}
 						}
@@ -448,6 +448,14 @@ li a.text-mid-orange {
   		    transform: translate(-50%, -50%);
 	}
 
+
+@media (max-width: 555px) {
+		.intro-center {
+			width: 77%;
+
+		}
+
+	}
 
 
 /* About OCT Section */
@@ -548,7 +556,7 @@ li a.text-mid-orange {
 /*   Content Wrappers   */
 
 	main {
-		padding: 0 5% 0 5%;
+		/*padding: 0 5% 0 5%;*/
   		margin-top: -5%;
 			}
 
