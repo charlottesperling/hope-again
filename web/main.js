@@ -44,8 +44,18 @@ $(window).scroll(function() {
 	$(window).resize(function(){
 		if(window.innerWidth > 830) {
 			$("#mobile-nav").removeAttr("style");
+
 		}
 
 });
+
+$(window).resize(function(){
+		if(window.innerWidth < 830) {
+			$("header").addClass('smaller');
+
+		}
+
+});
+
 	});
 

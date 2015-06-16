@@ -964,7 +964,8 @@ li a.text-mid-orange {
 	border-bottom: 30px solid transparent;
 	border-left: 30px solid #91bed4;
 	position: absolute;
-	top: 43%;
+	top: 50%;
+	margin-top: -30px;
 
 }
 
@@ -975,7 +976,8 @@ li a.text-mid-orange {
 	border-bottom: 30px solid transparent;
 	border-left: 30px solid #2d6795;
 	position: absolute;
-	top: 43%;
+	top: 50%;
+	margin-top: -30px;
 
 }
 
@@ -986,7 +988,8 @@ li a.text-mid-orange {
 	border-bottom: 30px solid transparent;
 	border-left: 30px solid #073354;
 	position: absolute;
-	top: 43%;
+	top: 50%;
+	margin-top: -30px;
 
 }
 
@@ -1269,7 +1272,10 @@ li a.text-mid-orange {
 					border-top: 30px solid #91bed4;
 					position: absolute;
 					top: 0%;
-					left: 45%;
+					margin-top: 0px;
+					left: 50%;
+					margin-left: -30px;
+
 				}
 
 				.arrow-right-mid-blue {
@@ -1279,7 +1285,9 @@ li a.text-mid-orange {
 					border-top: 30px solid #2d6795;
 					position: absolute;
 					top: 0%;
-					left: 45%;
+					margin-top: 0px;
+					left: 50%;
+					margin-left: -30px;
 				}
 
 				.arrow-right-dark-blue {
@@ -1289,7 +1297,9 @@ li a.text-mid-orange {
 					border-top: 30px solid #073354;
 					position: absolute;
 					top: 0%;
-					left: 45%;
+					margin-top: 0px;
+					left: 50%;
+					margin-left: -30px;
 
 			}
 
@@ -1468,6 +1478,9 @@ footer {
 
 @media (max-width: 1120px) {
 
+			footer {
+		  		padding: 2.9em 9%;
+		  }
 
 			.footer-col {
 
