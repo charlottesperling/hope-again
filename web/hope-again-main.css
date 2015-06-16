@@ -354,11 +354,14 @@ li a.text-mid-orange {
 
 
 	.image-header { 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
 		background-size: cover;
 		background-position: center center;
 		/*background-attachment: fixed;*/
 		background-repeat: no-repeat;
-		height: 55em;
+		padding: 23% 25%;
 		width: auto;
 		position: relative;
 	}
@@ -366,7 +369,7 @@ li a.text-mid-orange {
 					/*Image Header Media Query*/
 				@media (max-width: 745px) {
 					.image-header {
-						padding: 10em 0em;
+						padding: 30% 7% 15% 7%;
 
 							}
 						}
@@ -439,13 +442,9 @@ li a.text-mid-orange {
 		}
 
 .intro-center {
-		/*position: fixed;*/
-		position: absolute;
-  		top: 50%;
-  		left: 50%;
-  		-webkit-transform: translate(-50%, -50%);
-  		        -ms-transform: translate(-50%, -50%);
-  		    transform: translate(-50%, -50%);
+
+		position: relative;
+
 	}
 
 
