@@ -38,51 +38,48 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-ham-menu:before {
-  content: "x";
+.icon-facebook:before {
+  content: "a";
 }
-.icon-donate:before {
-  content: "d";
+.icon-twitter:before {
+  content: "b";
+}
+.icon-volunteer:before {
+  content: "c";
 }
 .icon-resident:before {
+  content: "d";
+}
+.icon-church:before {
   content: "e";
 }
 .icon-philosophy:before {
-  content: "g";
-}
-.icon-volunteer:before {
-  content: "h";
-}
-.icon-involved:before {
-  content: "i";
-}
-.icon-facebook:before {
   content: "f";
 }
-.icon-twitter:before {
-  content: "k";
-}
-.icon-potential:before {
-  content: "a";
-}
-.icon-members:before {
-  content: "b";
-}
-.icon-history:before {
-  content: "c";
-}
-.icon-group-donate:before {
-  content: "j";
-}
-.icon-give:before {
-  content: "l";
-}
-.icon-church:before {
-  content: "m";
-}
 .icon-contact:before {
-  content: "n";
+  content: "g";
 }
 .icon-services:before {
+  content: "h";
+}
+.icon-potential:before {
+  content: "i";
+}
+.icon-involved:before {
+  content: "j";
+}
+.icon-donate:before {
+  content: "k";
+}
+.icon-group-donate:before {
+  content: "l";
+}
+.icon-history:before {
+  content: "m";
+}
+.icon-members:before {
+  content: "n";
+}
+.icon-give:before {
   content: "o";
 }
