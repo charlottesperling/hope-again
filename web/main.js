@@ -49,13 +49,13 @@ $(window).scroll(function() {
 
 });
 
-$(window).resize(function(){
-		if(window.innerWidth < 830) {
-			$("header").addClass('smaller');
+// $(window).resize(function(){
+// 		if(window.innerWidth < 830) {
+// 			$("header").addClass('smaller');
 
-		}
+// 		}
 
-});
+// });
 
 	});
 

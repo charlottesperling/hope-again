@@ -59,10 +59,10 @@
 .icon-contact:before {
   content: "g";
 }
-.icon-services:before {
+.icon-potential:before {
   content: "h";
 }
-.icon-potential:before {
+.icon-services:before {
   content: "i";
 }
 .icon-involved:before {
@@ -82,4 +82,7 @@
 }
 .icon-give:before {
   content: "o";
+}
+.icon-ham-menu:before {
+  content: "q";
 }
